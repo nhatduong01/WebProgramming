@@ -1,0 +1,23 @@
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.none-active-link {
+  text-decoration: none ;
+}
+.register-form
+{
+  position: absolute;
+  width:  25%;
+  top: 12rem;
+  left: 40%;
+  z-index: 10;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.alertMessage{
+  font-size: small;
+  color: 'red';
+}

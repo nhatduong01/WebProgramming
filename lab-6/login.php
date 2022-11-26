@@ -19,6 +19,7 @@
     ></script>
 </head>
 <body class="loginPage">
+  <h2 class="admin_sologan">Welcome Back</h2>
   <div class="register-form shadow">
     <form method="POST" action="authentication/login_processing.php">
       <div class="mb-3">
@@ -34,6 +35,7 @@
         <p class= "text-danger"><?php echo $_GET['error']; ?></p>
       <?php } ?>
     </form>
+    <a href="?page=admin_login" class="link-primary">Login as admin</a>
   </div>
 </body>
 </html>

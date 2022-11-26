@@ -92,8 +92,6 @@
                   echo $prefix;
                   ?>
                 </span>
-                <!-- <p class="">
-                </p> -->
               <button class="btn btn-outline-secondary ms-3"><a href="authentication/logout.php" class="none-active-link">Logout</a> </button>
                 <?php } ?>
             </form>

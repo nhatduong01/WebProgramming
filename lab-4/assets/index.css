@@ -21,3 +21,6 @@
   font-size: small;
   color: 'red';
 }
+.hover_drop_down:hover ul.dropdown-menu{
+  display: block;
+}

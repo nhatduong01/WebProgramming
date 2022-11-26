@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login to your account</title>
+  <title>Login to your admin account</title>
   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,6 +19,7 @@
     ></script>
 </head>
 <body class="loginPage">
+  <h2 class="admin_sologan">Admin Login Page</h2>
   <div class="register-form shadow">
     <form method="POST" action="authentication/login_processing.php">
       <div class="mb-3">
@@ -29,7 +30,7 @@
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1" required name="password">
       </div>
-      <button type="submit" class="btn btn-primary" value="submit" name="submit">Submit</button>
+      <button type="submit" class="btn btn-primary" value="submit" name="submit">Login</button>
       <?php if(isset($_GET['error']))  {?>
         <p class= "text-danger"><?php echo $_GET['error']; ?></p>
       <?php } ?>

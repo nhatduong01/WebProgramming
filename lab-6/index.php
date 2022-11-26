@@ -13,6 +13,12 @@ if (isset($_GET['page'])) {
     case 'products':
       include('products.php');
       break;
+    case 'admin_login':
+      include('admin_login.php');
+      break;
+    case 'admin_page':
+      include('templates/admin_page.php');
+      break;
     case 'home':
     include('templates/header.php');  
     include('home.php');

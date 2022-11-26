@@ -1,0 +1,41 @@
+.register-form
+{
+  width:  25%;
+  z-index: 10;
+  margin: auto;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.edit-form
+{
+  width: 100%;
+  z-index: 10;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.add_product
+{
+  width: 40% !important;
+}
+.alertMessage{
+  font-size: small;
+  color: red;
+}
+.admin_sologan{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.product-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.price-tag
+{
+  color: #ed873c;
+}

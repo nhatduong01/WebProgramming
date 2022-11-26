@@ -52,7 +52,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Sales</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown hover_drop_down">
               <a
                 class="nav-link dropdown-toggle"
                 href="?page=products"
@@ -66,6 +66,8 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Apple</a></li>
                 <li><a class="dropdown-item" href="#">HP</a></li>
+                <li><a class="dropdown-item" href="#">Lenovo</a></li>
+                <li><a class="dropdown-item" href="#">Huawei</a></li>
               </ul>
             </li>
           </ul>

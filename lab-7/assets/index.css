@@ -1,0 +1,38 @@
+.footer{
+  padding-top: 10px;
+  width: 100%;
+  bottom: 0;
+}
+.none-active-link {
+  text-decoration: none ;
+}
+
+.toastMessage
+{
+  position: absolute;
+  right: 3rem;
+  top: 5rem;
+  z-index: 10;
+}
+.product-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  flex: 1;
+}
+
+.price-tag
+{
+  color: #ed873c;
+}
+
+.result {
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  z-index: 10;
+  margin-top: 3px;
+  width: 100%;
+}

@@ -1,0 +1,34 @@
+.footer{
+  padding-top: 10px;
+  width: 100%;
+}
+
+.product_price {
+  color: #ed873c;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.add-to-card-btn{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.comment-form {
+  margin-top: 1rem;
+}
+
+.form-label {
+  color: gray;
+}
+
+.card {
+  border: none;
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
